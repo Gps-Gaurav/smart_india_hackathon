@@ -10,7 +10,7 @@ import "./header.css";
 
 const Header = () => {
     const [logindata, setLoginData] = useState([]);
-
+   
   const history = useNavigate();
 
   const [show, setShow] = useState(false);
@@ -74,12 +74,15 @@ const Header = () => {
                     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
                         <a href="#" class="navbar-brand">MENU</a>
                         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                     </button>
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div> <img  
+                  src="https://i.pinimg.com/originals/63/cd/bf/63cdbfa23e25840b060311e1eba64ae0.png"
+                  style={{ width: 40, height: 30 }}     alt="Carousel Image"
+               /></div>
                             <div class="navbar-nav mr-auto">
-                                <a href="details" class="nav-item nav-link ">Home</a>
+                               <a href="details" class="nav-item nav-link ">Home</a>
                                 <a href="about.html" class="nav-item nav-link">About</a>
                                 <a href="service.html" class="nav-item nav-link">Practice</a>
                                 <a href="team.html" class="nav-item nav-link">Attorneys</a>
