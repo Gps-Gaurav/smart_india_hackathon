@@ -85,7 +85,7 @@ const Header = () => {
                                 <a href="team.html" class="nav-item nav-link">Attorneys</a>
                                 <a href="portfolio.html" class="nav-item nav-link">Case Studies</a>
                                 <div class="nav-item dropdown">
-                                    <a href="#/preTrial" class="nav-link dropdown-toggle" data-toggle="dropdown">Pre Trial</a>
+                                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Pre Trial</a>
                                     <div class="dropdown-menu">
                                         <a href="blog.html" class="dropdown-item">Blog Page</a>
                                         <a href="single.html" class="dropdown-item">Single Page</a>
